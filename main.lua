@@ -2,7 +2,9 @@
 
 data_line = {} -- Fill with 0s in the for loop
 pointer = 1
-code = "+[-->-[>>+>-----<<]<--<---]>-.>>>+.>>..+++[.>]<<<<.+++.------.<<-.>>>>+."--input()
+code = "+[-->-[>>+>-----<<]<--<---]>-.>>>+.>>..+++[.>]<<<<.+++.------.<<-.>>>>+." -- Hello World
+file = io.open(io.read(), "r")
+code = file:read("a")
 reader = 1
 skip_level = 0
 
